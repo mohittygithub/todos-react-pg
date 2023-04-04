@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +40,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.done {
+  background-color: rgb(219, 134, 134);
+}
+.undone {
+  background-color: peachpuff;
 }
